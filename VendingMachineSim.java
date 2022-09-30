@@ -1,12 +1,7 @@
 import java.util.Scanner;
 
 // Name : Deepit Chandgothia, 
-// Assignment: 2
-// Assignment name: Vending Machine
-// 3/3/22
-// Used office hours help
-// Used evening mentor help
-// I confirm that the above list of sources is complete AND that I/we have not talked to anyone else (e.g., CSC 207 students) about the solution to this problem."
+// Project: Vending Machine
 
 public class VendingMachineSim {
 

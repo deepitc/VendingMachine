@@ -65,7 +65,10 @@ public class VendingMachineSim {
 
 					}
 
-					if (noyce.makeChange((noyce.getAmtDeposited() - noyce.get(pos).getPrice())))
+					float balance = (float) (noyce.getAmtDeposited() - noyce.get(pos).getPrice());
+					balance = (float) (Math.round(balance * 100.0) / 100.0);
+					System.out.println("Your balance is: " + balance);
+					if (noyce.makeChange(balance))
 						display.show("Exact Change Available");
 					else
 						display.notExactChange();
